@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href=""></head><body><div class="container"><div class="row"><div class="col-sm-12"><a href="<?=  route('HOME_VIEW')  ?>">Home</a><?php if(count($name)): ?><?php foreach($name as $item): ?><h4><?=  $item  ?></h4><?php endforeach; ?><?php endif; ?></div></div></div></body></html>

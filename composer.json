@@ -1,0 +1,21 @@
+{
+    "name": "purpose/purpose",
+    "description": "A Purpose to Web",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shazzad Hossain",
+            "email": "shazzad.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "Turbo\\": "structure/Turbo/",
+            "Purpose\\": "structure/Purpose/"
+        }
+    }
+}

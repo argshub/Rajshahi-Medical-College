@@ -1,0 +1,8 @@
+<?php
+
+require_once __DIR__."/vendor/autoload.php";
+
+use Turbo\Shelf\Kernel\InputManager\KernelInput;
+use Turbo\Shelf\Kernel\KernelManagment\KernelManager;
+KernelManager::processKernelInput((new KernelInput())->getInput());
+

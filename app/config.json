@@ -1,0 +1,30 @@
+{
+  "APPLICATION CONFIGURATION": {
+    "APPLICATION ROOT": "C:/xampp/htdocs/",
+    "SESSION": "ON",
+    "CACHE": "OFF"
+  },
+  "DATABASE CONFIGURATION": {
+    "DATABASE SERVER NAME": "mysql",
+    "DATABASE HOST": "localhost",
+    "DATABASE USERNAME": "root",
+    "DATABASE PASSWORD": "",
+    "DATABASE NAME": "purpose"
+  },
+  "SESSION CONFIGURATION": {
+    "SESSION NAME": "user"
+  },
+  "COOKIE CONFIGURATION": {
+    "COOKIE NAME": "cook",
+    "COOKIE EXPIRY": 604840
+  },
+  "TOKEN CONFIGURATION": {
+    "FORM TOKEN": "token"
+  },
+  "ROUTES CONFIGURATION": {
+    "WEB": "web.php",
+    "AUTH": "auth.php",
+    "AUTHORIZE": "authorize.php",
+    "API": "api.php"
+  }
+}
